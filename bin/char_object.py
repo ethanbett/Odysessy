@@ -35,7 +35,7 @@ class char:
         print 'Ring 1: ',self.ring1[0]
         print 'Ring 2: ',self.ring2[0]
         print self.potion
-    
+        
     def show_stats(self):
         print "Attack: ", self.weapon[1] + self.ring1[1] + self.ring2[1]
         print 'Defense: ', self.helmet[1] + self.suit[1] + self.greaves[1]

@@ -1,3 +1,3 @@
 greaves = {
-'starter':['Leather Greaves',5],
+'basic':['Leather Greaves',5],
 }

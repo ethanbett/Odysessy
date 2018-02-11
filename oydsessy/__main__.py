@@ -3,12 +3,13 @@ imports
 
 
 def main():
-    hero = initilize()
+    hero = initilize_user()
+    room = initilize_room()
     while True:
-        x = user_input(hero)
+        x = user_input(hero,room)
         rand = rand()
         if rand ...:
-            room(x)
+            room(rooms[x])
         else:
             battle(hero,monster)
-            room(x)        
+            room(rooms[x])        
